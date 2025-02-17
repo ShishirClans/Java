@@ -1,38 +1,38 @@
-class Pen {    // Blue print defining for pen
-    String color; 
-    String type; //Ball or gelpen
-    //and This class has a function as well 
-    public void write() {
-        System.out.println(" Writing Something");
+
+class Pen     // We define Blueprints for pen now.. like the properties of a pen
+{
+    String color;
+    String type; // ballpoint; gel pen, etc...
+
+    //We can define methods in a class
+    public void write(){
+        System.out.println("Writing Something....");
     }
 
     public void printColor(){
-        System.out.println(this.color);
+        System.out.println(this.color);   // this is a keyword that tells, which object called this function.
     }
 }
 
-//Inside main function we make Objects for classes(Eg. Pen) inside the Main function
 
-public class OOPS{ 
-    public static void main(String[] args){
+public class OOPS {
+    public static void main(String[] args) {
 
-        Pen pen1= new Pen();
-        //All properties of Pen (like color, type). To use them, we use dot ( eg: pen1.color) 
-        pen1.color = "blue";
-        pen1.type = "Gel";
-        //Let's say we want to write something, so we gotta call the write function 
-        //pen1.write();
+        //Creating object here
 
-        //Let's create pen2
+        Pen pen1 = new Pen();
+        //defining the color and its type
+        pen1.color = "red";  // we used that DOT to access the property from the class we created above
+        pen1.type = "gel";
+        pen1.write();
+
         Pen pen2 = new Pen();
-        pen2.color = "black";
-        pen2.type = "Ball pen";
+        pen2.color = "Pen 2 color is black";
+        pen2.type = "ballpoint";
 
-        //pen1 and pen2 are calling the 
         pen1.printColor();
         pen2.printColor();
-    
     }
-    
-
 }
+
+
