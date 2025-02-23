@@ -1,0 +1,47 @@
+Image a scenario:
+The CS department head want you to create a student management system. The high level person only provide you with a literature document:
+We want to store the student data into the system and. We can modify and show the data. For student data, it should include the fields: name, time start, year, department, affiliation, email, phone, tuition. The jobs of the students are taking courses, exam, and project, attend clubs.
+You don’t need to do too much. The only thing you need to do in this class is to use the newly learned abstract class and interface to implement a structure for the student information.
+
+You will create three java classes: the Student abstract class, the Student interface, and Student concrete class.
+Student abstract class should includes: the mutable fields (variables) and abstract methods and concrete methods ( you can implement what all the students will do in here).
+The Student interface should includes: the constant fields (variables) and abstract methods. The Student concrete class just extends the Student abstract class and implements Student interface (nothing else to do).
+Please copy and paste the finish code into this question.
+The hint is the example of faculty management system in the video in this assignment!
+
+-------------------------------------------------------------------------------------------------------------
+
+name..... abstract class
+
+time start.... interface
+
+year..... interface
+
+department..... Abstract class
+
+affiliation.... interface 
+
+email..... interface
+
+phone .....  Interface  ( it doesn't get changed so I didn't use Abstract class )... remains fixed
+
+tuition.... Abstract class 
+
+
+3 Jobs of Students--------------------
+
+
+Taking Course  
+
+
+Exam
+
+
+Project
+
+attending clubs
+
+
+
+
+
